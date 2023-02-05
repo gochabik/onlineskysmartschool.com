@@ -1,0 +1,195 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.fon {
+    background-color: rgba(173, 109, 66, 0.158);
+    height: 5000px;
+
+}
+
+html {
+    font-size: 23px;
+}
+
+.topnav {
+    background-color: rgba(168, 165, 251, 0);
+    height: max-content;
+    width: 80%;
+}
+
+.text {
+    background-color: rgba(0, 0, 0, 0);
+    height: 4000px;
+    width: 100%;
+    margin-top: 10%;
+    padding-left: 1%;
+}
+
+.p1 {
+    margin: 30px;
+    height: min-content;
+}
+
+.p2 {
+    margin: 30px;
+    height: min-content;
+}
+
+.topnav>nav>ul {
+    display: flex;
+    list-style: none;
+}
+
+.topnav>nav>ul>li>a {
+    display: block;
+    padding-right: 10px;
+    padding-left: 10px;
+    border: 0px;
+    border-bottom: 0.5px;
+    border-style: solid;
+}
+
+.leftnav {
+    background-color: rgba(160, 114, 66, 0.299);
+    height: 2500px;
+    width: 17%;
+
+}
+
+.page {
+    display: flex;
+}
+
+a {
+    text-decoration: none;
+}
+
+.leftnav>header>img {
+    width: 100%;
+}
+
+/* media */
+@media (min-width: 2170px) {
+    .topnav {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+    }
+}
+
+@media (min-width: 1870px) {
+
+    .topnav {
+        padding: 25px;
+    }
+
+    html {
+        font-size: 40px;
+    }
+
+    html input {
+        width: 400px;
+        height: 50px;
+        font-size: 35px;
+    }
+}
+
+@media (min-width: 750px) {
+    .fon {
+        display: block;
+    }
+}
+
+@media (max-widht: 790px) {
+    .fon {
+        display: block;
+    }
+}
+
+@media (max-width: 2020px) and (min-width: 1500px) {
+    html {
+        font-size: 35px;
+    }
+
+    html input {
+        width: 400px;
+        height: 45px;
+        font-size: 25px;
+    }
+}
+
+@media (max-width: 590px) {
+    .fon {
+        display: flex;
+        width: min-content;
+    }
+
+    .topnav>nav>ul {
+        justify-content: space-between;
+    }
+}
+
+@media (max-width: 1150px) {
+    .topnav {
+        flex-direction: column;
+    }
+}
+
+@media (max-widht: 800px) {
+
+    .topnav {
+        display: flex;
+        width: min-content;
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+
+    .fon {
+        width: min-content;
+    }
+}
+
+@media (min-width: 1200px) and (max-width: 1500px) {
+    html {
+        font-size: 30px;
+    }
+
+    html input {
+        font-size: 20px;
+        width: 500px;
+        height: 35px;
+    }
+}
+
+@media (min-width: 1000px) and (max-width: 1200px) {
+    html {
+        font-size: 25px;
+    }
+
+    html input {
+        font-size: 20px;
+        width: 400px;
+        height: 25px;
+    }
+}
+
+@media (min-width: 835px) and (max-width: 999px) {
+    html {
+        font-size: 25px;
+    }
+
+    html input {
+        height: 30px;
+        width: 400px;
+        font-size: 20px;
+    }
+}
+
+@media (min-width:1400px) and (max-width: 2170px) {
+    .topnav>nav>ul {
+        justify-content: space-evenly;
+        align-items: center;
+    }
+}
